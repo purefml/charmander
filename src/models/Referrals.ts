@@ -47,6 +47,10 @@ const ReferralSchema = new mongoose.Schema({
             message: "Invalid phone number",
         },
     },
+    address: {
+        type: String,
+        required: [true, "Address is required"],
+    },
     state: {
         type: String,
         required: [true, "State is required"],
