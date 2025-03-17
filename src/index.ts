@@ -3,6 +3,7 @@ import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 import referralRoute from './routes/referrals';
 import uploadRoute from './routes/uploads';
+import cors from "cors";
 
 dotenv.config();
 
@@ -34,6 +35,7 @@ app.get('/', (_req: Request, res: Response) => {
 });
 
 // Middlewares
+app.use(cors());
 app.use(express.json()); // Parses application/json
 app.use(express.urlencoded({ extended: true })); // Parses application/x-www-form-urlencoded
 
