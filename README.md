@@ -35,10 +35,10 @@ npm install
 Create a `.env` file in the root directory and add:  
 ```env
 NODE_ENV = 'development'
-MONGODB = 'mongodb+srv://delacruzrubenjames:*********************@charmander.z0a9y.mongodb.net/?retryWrites=true&w=majority&appName=Charmander'
-CLOUDINARY_CLOUD_NAME='*********************'
-CLOUDINARY_API_KEY='*********************'
-CLOUDINARY_API_SECRET='*********************'
+MONGODB = 'mongodb+srv://delacruzrubenjames:fqX8ImsNk8Osfu6F@charmander.z0a9y.mongodb.net/?retryWrites=true&w=majority&appName=Charmander'
+CLOUDINARY_CLOUD_NAME='dxkmfa8ea'
+CLOUDINARY_API_KEY='531486551519759'
+CLOUDINARY_API_SECRET='3lMHMHHAXEn3lC4pRpHCrhpttlQ'
 ```
 
 ### **4️⃣ Run the project**  
